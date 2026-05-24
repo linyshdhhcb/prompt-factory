@@ -1,0 +1,414 @@
+persona_traits:
+  - category: occupation
+    label: 外卖骑手
+    traits: ["赶时间", "路线熟", "怕差评", "手机不离手", "风里来雨里去"]
+    weight: 1.2
+  - category: occupation
+    label: 全职宝妈
+    traits: ["关注育儿", "精打细算", "社交圈子以家长群为主", "时间碎片化", "关注健康"]
+    weight: 1.1
+  - category: occupation
+    label: 实习护士
+    traits: ["值夜班", "手忙脚乱", "被前辈使唤", "心疼病人", "学习心切"]
+    weight: 0.9
+  - category: occupation
+    label: 退休教师
+    traits: ["爱说教", "关注教育政策", "生活规律", "喜欢回忆过去", "关心学生"]
+    weight: 0.8
+  - category: occupation
+    label: 程序员
+    traits: ["逻辑思维强", "久坐", "咖啡续命", "社恐", "关注技术动态"]
+    weight: 1.3
+  - category: occupation
+    label: 大学生
+    traits: ["时间自由", "追热点", "社交活跃", "经济紧张", "对未来迷茫"]
+    weight: 1.2
+  - category: occupation
+    label: 出租车司机
+    traits: ["健谈", "路怒", "久坐腰不好", "听广播", "对城市了如指掌"]
+    weight: 1.0
+  - category: occupation
+    label: 小店老板
+    traits: ["精明", "起早贪黑", "人情世故", "算账快", "看人准"]
+    weight: 0.9
+  - category: occupation
+    label: 快递员
+    traits: ["风风火火", "怕丢件", "手机响不停", "体力活", "客户是上帝"]
+    weight: 1.0
+  - category: occupation
+    label: 建筑工人
+    traits: ["体力好", "话少", "想家", "工友之间互相帮衬", "关注工资发放"]
+    weight: 0.8
+  - category: occupation
+    label: 厨师
+    traits: ["对食材挑剔", "烫伤是家常便饭", "烟熏火燎", "吃饭不规律", "讲究火候"]
+    weight: 0.8
+  - category: occupation
+    label: 保安
+    traits: ["无聊", "夜班多", "认真负责", "爱管闲事", "关注小区动态"]
+    weight: 0.7
+  - category: occupation
+    label: 保洁阿姨
+    traits: ["勤劳", "怕被嫌弃", "话不多", "关注卫生", "节省"]
+    weight: 0.7
+  - category: occupation
+    label: 销售经理
+    traits: ["能说会道", "应酬多", "业绩压力大", "人脉广", "关注市场动态"]
+    weight: 1.0
+  - category: occupation
+    label: 会计
+    traits: ["细心", "怕出错", "月底忙", "对数字敏感", "规矩意识强"]
+    weight: 0.9
+  - category: occupation
+    label: 律师
+    traits: ["逻辑严密", "措辞谨慎", "工作强度大", "关注法律更新", "好辩"]
+    weight: 0.8
+  - category: occupation
+    label: 医生
+    traits: ["忙碌", "专业权威", "见惯生死", "值夜班", "对患者有耐心"]
+    weight: 0.9
+  - category: occupation
+    label: 药师
+    traits: ["严谨", "对药物敏感", "关注用药安全", "工作重复性高", "细心"]
+    weight: 0.7
+  - category: occupation
+    label: 自由职业者
+    traits: ["时间自由", "收入不稳定", "自律要求高", "社交少", "焦虑与自由并存"]
+    weight: 1.0
+  - category: occupation
+    label: 网约车司机
+    traits: ["看导航", "接单焦虑", "久坐", "车内环境讲究", "对平台规则敏感"]
+    weight: 1.0
+  - category: occupation
+    label: 房产中介
+    traits: ["热情", "嘴甜", "对房价敏感", "带看辛苦", "业绩驱动"]
+    weight: 0.8
+  - category: occupation
+    label: 餐厅服务员
+    traits: ["笑脸迎人", "脚酸", "记菜单", "怕投诉", "忙时脚不沾地"]
+    weight: 0.8
+  - category: occupation
+    label: 工厂工人
+    traits: ["重复劳动", "倒班", "想加班多赚", "工友关系简单", "关注工资"]
+    weight: 0.8
+  - category: occupation
+    label: 外卖小哥
+    traits: ["争分夺秒", "怕超时", "风雨无阻", "手机导航", "客户评价敏感"]
+    weight: 1.1
+  - category: occupation
+    label: 网络主播
+    traits: ["镜头感强", "话多", "关注流量", "互动频繁", "作息颠倒"]
+    weight: 0.9
+
+  - category: mood
+    label: 焦虑
+    traits: ["坐立不安", "反复确认", "语速快", "注意力难集中", "容易出汗"]
+    weight: 1.2
+  - category: mood
+    label: 急躁
+    traits: ["不耐烦", "打断别人", "催促", "语气冲", "坐不住"]
+    weight: 1.1
+  - category: mood
+    label: 平静
+    traits: ["语气平和", "有条不紊", "不急不躁", "理性思考", "从容"]
+    weight: 1.0
+  - category: mood
+    label: 好奇
+    traits: ["追问", "探索欲强", "关注细节", "喜欢新事物", "眼睛发亮"]
+    weight: 1.0
+  - category: mood
+    label: 烦躁
+    traits: ["叹气", "来回走动", "对小事发火", "不想说话", "心神不宁"]
+    weight: 1.1
+  - category: mood
+    label: 无奈
+    traits: ["叹气", "摇头", "语气低沉", "放弃争辩", "认命"]
+    weight: 1.0
+  - category: mood
+    label: 兴奋
+    traits: ["语速快", "手舞足蹈", "声音高亢", "停不下来", "分享欲强"]
+    weight: 1.0
+  - category: mood
+    label: 疲惫
+    traits: ["反应慢", "不想动", "说话有气无力", "想睡觉", "眼神涣散"]
+    weight: 1.1
+  - category: mood
+    label: 放松
+    traits: ["语速慢", "随意", "不拘小节", "享受当下", "笑容多"]
+    weight: 0.9
+  - category: mood
+    label: 紧张
+    traits: ["手心出汗", "结巴", "反复确认", "不敢对视", "心跳加速"]
+    weight: 1.0
+  - category: mood
+    label: 开心
+    traits: ["笑容满面", "话多", "乐于分享", "精力充沛", "看什么都顺眼"]
+    weight: 1.0
+  - category: mood
+    label: 沮丧
+    traits: ["沉默", "不想社交", "自我否定", "提不起劲", "回避目光"]
+    weight: 0.9
+  - category: mood
+    label: 期待
+    traits: ["频繁看手机", "计划未来", "语气上扬", "坐不住", "想象美好结果"]
+    weight: 0.9
+  - category: mood
+    label: 委屈
+    traits: ["眼眶泛红", "声音哽咽", "想解释又说不出口", "低头", "咬嘴唇"]
+    weight: 0.8
+  - category: mood
+    label: 愤怒
+    traits: ["声音大", "拍桌子", "呼吸急促", "语言攻击", "脸红"]
+    weight: 1.0
+  - category: mood
+    label: 满足
+    traits: ["微笑", "感恩", "知足", "语气温柔", "享受当下"]
+    weight: 0.8
+  - category: mood
+    label: 迷茫
+    traits: ["发呆", "不知道说什么", "反复问为什么", "犹豫不决", "眼神空洞"]
+    weight: 1.0
+  - category: mood
+    label: 感动
+    traits: ["眼眶湿润", "声音颤抖", "想表达感谢", "沉默片刻", "心里暖暖的"]
+    weight: 0.7
+  - category: mood
+    label: 孤独
+    traits: ["自言自语", "刷手机", "不想出门", "渴望被理解", "沉默寡言"]
+    weight: 0.9
+  - category: mood
+    label: 骄傲
+    traits: ["挺胸抬头", "语气自信", "喜欢被夸", "不愿认错", "展示成就"]
+    weight: 0.7
+
+  - category: language_habit
+    label: 口语化
+    traits: ["用词简单", "短句多", "语气词多", "不讲究语法", "像聊天"]
+    weight: 1.3
+  - category: language_habit
+    label: 书面语
+    traits: ["用词正式", "句式完整", "少语气词", "逻辑清晰", "像写文章"]
+    weight: 0.8
+  - category: language_habit
+    label: 网络用语多
+    traits: ["用梗", "缩写", "表情包文字化", "追热点词", "yyds/绝绝子"]
+    weight: 1.2
+  - category: language_habit
+    label: 方言味重
+    traits: ["方言词汇", "语序特殊", "声调不同", "俚语多", "普通话不标准"]
+    weight: 1.0
+  - category: language_habit
+    label: 喜欢用缩写
+    traits: ["xswl", "zqsg", "u1s1", "kdl", "首字母代替"]
+    weight: 0.9
+  - category: language_habit
+    label: 爱说口头禅
+    traits: ["然后", "就是说", "你知道吗", "对吧", "反正"]
+    weight: 1.1
+  - category: language_habit
+    label: 说话简洁
+    traits: ["惜字如金", "不废话", "直奔主题", "短句", "不解释"]
+    weight: 1.0
+  - category: language_habit
+    label: 说话啰嗦
+    traits: ["绕弯子", "重复", "铺垫长", "细节多", "说了半天没到重点"]
+    weight: 0.9
+  - category: language_habit
+    label: 喜欢用比喻
+    traits: ["打比方", "形象化", "类比", "画面感强", "生动"]
+    weight: 0.8
+  - category: language_habit
+    label: 爱用反问句
+    traits: ["难道不是吗", "你想想", "这不是明摆着吗", "谁不知道啊", "不是吧"]
+    weight: 0.9
+  - category: language_habit
+    label: 语气词多
+    traits: ["啊", "呢", "吧", "嘛", "哦"]
+    weight: 1.2
+  - category: language_habit
+    label: 喜欢引经据典
+    traits: ["引用名言", "古文", "成语", "典故", "掉书袋"]
+    weight: 0.6
+  - category: language_habit
+    label: 中英夹杂
+    traits: ["混用英文", "presentation", "meeting", "deadline", "职场腔"]
+    weight: 0.8
+  - category: language_habit
+    label: 爱用叠词
+    traits: ["慢慢来", "轻轻的", "小小的", "热热的", "软软的"]
+    weight: 0.7
+  - category: language_habit
+    label: 说话直白
+    traits: ["不绕弯", "有什么说什么", "不修饰", "可能伤人", "效率高"]
+    weight: 1.0
+  - category: language_habit
+    label: 委婉含蓄
+    traits: ["暗示", "不直说", "留余地", "话里有话", "顾及面子"]
+    weight: 0.8
+  - category: language_habit
+    label: 喜欢用感叹号
+    traits: ["情绪外露", "强调", "激动", "每句都感叹", "热情"]
+    weight: 1.0
+  - category: language_habit
+    label: 爱用省略号
+    traits: ["欲言又止", "意味深长", "留白", "话没说完", "让你猜"]
+    weight: 0.8
+  - category: language_habit
+    label: 习惯用敬语
+    traits: ["您", "请问", "麻烦您", "不好意思", "客气"]
+    weight: 0.7
+  - category: language_habit
+    label: 说话带刺
+    traits: ["阴阳怪气", "反讽", "话里有话", "不正面回答", "冷嘲热讽"]
+    weight: 0.7
+
+  - category: typing_habit
+    label: 爱用表情包
+    traits: ["每条消息配图", "用表情代替文字", "收藏大量表情", "斗图", "表情包比话多"]
+    weight: 1.3
+  - category: typing_habit
+    label: 喜欢发语音转文字
+    traits: ["懒得打字", "语音识别错误多", "口语化", "语速快", "不想看屏幕"]
+    weight: 1.0
+  - category: typing_habit
+    label: 从不用标点
+    traits: ["一逗到底", "空格代替标点", "看的人累", "随性", "懒得按符号键"]
+    weight: 1.1
+  - category: typing_habit
+    label: 爱用感叹号
+    traits: ["每句结尾感叹", "情绪强烈", "热情", "急迫感", "像在喊"]
+    weight: 1.0
+  - category: typing_habit
+    label: 喜欢分段发送
+    traits: ["一句一段", "消息碎片化", "连续发送", "不等回复", "刷屏"]
+    weight: 1.1
+  - category: typing_habit
+    label: 一句到底不分段
+    traits: ["长消息", "不换行", "一大坨文字", "看着累", "信息密度高"]
+    weight: 0.9
+  - category: typing_habit
+    label: 爱用波浪线
+    traits: ["~", "语气轻柔", "卖萌", "撒娇", "软绵绵"]
+    weight: 0.8
+  - category: typing_habit
+    label: 喜欢用句号结尾
+    traits: ["每句都加句号", "正式", "严谨", "像写文章", "有始有终"]
+    weight: 0.7
+  - category: typing_habit
+    label: 爱发长消息
+    traits: ["小作文", "详细描述", "逻辑完整", "有开头结尾", "信息量大"]
+    weight: 0.8
+  - category: typing_habit
+    label: 喜欢用数字编号
+    traits: ["1. 2. 3.", "条理清晰", "列要点", "强迫症", "逻辑性强"]
+    weight: 0.7
+  - category: typing_habit
+    label: 爱用问号
+    traits: ["???连续问号", "质疑", "惊讶", "不确定", "追问"]
+    weight: 0.9
+  - category: typing_habit
+    label: 习惯打空格
+    traits: ["中英文之间加空格", "排版强迫症", "美观", "间隔清晰", "程序员风格"]
+    weight: 0.6
+  - category: typing_habit
+    label: 爱用省略号
+    traits: ["……", "话没说完", "意味深长", "犹豫", "留悬念"]
+    weight: 0.8
+  - category: typing_habit
+    label: 喜欢用英文标点
+    traits: [",", ".", "?", "半角标点", "英文输入法不切换"]
+    weight: 0.7
+  - category: typing_habit
+    label: 发消息前喜欢撤回修改
+    traits: ["反复编辑", "追求完美", "措辞谨慎", "撤回重发", "犹豫"]
+    weight: 0.6
+
+  - category: scene
+    label: 赶时间
+    traits: ["语速快", "短句", "不寒暄", "催促", "走路都在打字"]
+    weight: 1.2
+  - category: scene
+    label: 心情不好
+    traits: ["不想说话", "回复慢", "语气冷淡", "容易发火", "沉默"]
+    weight: 1.1
+  - category: scene
+    label: 刚起床
+    traits: ["迷糊", "反应慢", "简短回复", "还没清醒", "赖床中"]
+    weight: 0.9
+  - category: scene
+    label: 睡前
+    traits: ["困倦", "话少", "感性", "容易走心", "胡思乱想"]
+    weight: 0.9
+  - category: scene
+    label: 通勤中
+    traits: ["地铁上", "信号不好", "单手打字", "看消息不及时", "挤"]
+    weight: 1.1
+  - category: scene
+    label: 吃饭时
+    traits: ["边吃边看手机", "回复慢", "可能发美食图", "嘴里有东西", "随意"]
+    weight: 0.8
+  - category: scene
+    label: 运动后
+    traits: ["出汗", "喘", "兴奋", "想分享", "精力旺盛"]
+    weight: 0.6
+  - category: scene
+    label: 加班中
+    traits: ["疲惫", "烦躁", "想下班", "摸鱼聊天", "注意力分散"]
+    weight: 1.0
+  - category: scene
+    label: 逛街时
+    traits: ["看东西", "拍照分享", "回复断断续续", "兴奋", "消费冲动"]
+    weight: 0.7
+  - category: scene
+    label: 带娃中
+    traits: ["注意力被分散", "回复慢", "话题围绕孩子", "手忙脚乱", "随时被打断"]
+    weight: 0.9
+  - category: scene
+    label: 看病时
+    traits: ["焦虑", "等叫号", "关注症状", "想快点结束", "不安"]
+    weight: 0.7
+  - category: scene
+    label: 聚会中
+    traits: ["社交模式", "话多", "偶尔看手机", "热闹", "分享现场"]
+    weight: 0.7
+
+  - category: education
+    label: 初中
+    traits: ["用词简单", "口语化", "少书面语", "方言多", "表达直接"]
+    weight: 1.0
+  - category: education
+    label: 高中
+    traits: ["基础表达", "偶尔用成语", "常识面广", "对某些领域有了解", "表达尚可"]
+    weight: 1.0
+  - category: education
+    label: 大专
+    traits: ["专业方向明确", "实用导向", "表达清楚", "动手能力强", "理论少"]
+    weight: 1.0
+  - category: education
+    label: 本科
+    traits: ["表达完整", "逻辑清晰", "知识面广", "会查资料", "书面语能力好"]
+    weight: 1.1
+  - category: education
+    label: 硕士
+    traits: ["学术思维", "严谨", "数据驱动", "专业深度", "批判性思维"]
+    weight: 0.8
+  - category: education
+    label: 博士
+    traits: ["深度专业", "引用文献", "措辞严谨", "怀疑精神", "学术腔"]
+    weight: 0.5
+  - category: education
+    label: 中专
+    traits: ["技能导向", "实用主义", "表达朴素", "动手能力强", "理论少"]
+    weight: 0.8
+  - category: education
+    label: 职高
+    traits: ["职业化", "实操强", "表达简单", "早入社会", "务实"]
+    weight: 0.7
+  - category: education
+    label: 小学
+    traits: ["表达简单", "词汇量少", "拼音多", "错别字", "天真"]
+    weight: 0.5
+  - category: education
+    label: 成人自考
+    traits: ["上进", "边工边学", "时间紧", "目标明确", "自律"]
+    weight: 0.7
